@@ -1,0 +1,132 @@
+playercode/mlutil.lo: playercode/mlutil.c config.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/memory.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h \
+ include/mikmod_internals.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/malloc.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ include/mikmod.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/pthread.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sched.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sched.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/signal.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/setjmp.h
+
+config.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/memory.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h:
+
+include/mikmod_internals.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/malloc.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h:
+
+include/mikmod.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/pthread.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sched.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sched.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/signal.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/setjmp.h:

@@ -1,0 +1,306 @@
+keyboard.o: keyboard.c ../../textscreen/textscreen.h \
+ ../../textscreen/../src/doomkeys.h ../../textscreen/txt_main.h \
+ ../../textscreen/txt_sdl.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/strings.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/inttypes.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdint.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdint.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/ctype.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_touplow.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/begin_code.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/close_code.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h \
+ ../../textscreen/txt_button.h ../../textscreen/txt_widget.h \
+ ../../textscreen/txt_checkbox.h ../../textscreen/txt_desktop.h \
+ ../../textscreen/txt_window.h ../../textscreen/txt_table.h \
+ ../../textscreen/txt_window_action.h ../../textscreen/txt_dropdown.h \
+ ../../textscreen/txt_fileselect.h ../../textscreen/txt_inputbox.h \
+ ../../textscreen/txt_label.h ../../textscreen/txt_radiobutton.h \
+ ../../textscreen/txt_scrollpane.h ../../textscreen/txt_separator.h \
+ ../../textscreen/txt_spinctrl.h ../../textscreen/txt_strut.h \
+ ../../src/doomtype.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/limits.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/syslimits.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/limits.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/local_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/linux/limits.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/xopen_lim.h \
+ ../../src/m_config.h ../../src/doomtype.h ../../src/m_controls.h \
+ ../../src/m_misc.h execute.h txt_keyinput.h \
+ ../../textscreen/txt_widget.h mode.h ../../src/d_mode.h \
+ ../../src/d_iwad.h ../../src/d_mode.h joystick.h keyboard.h
+
+../../textscreen/textscreen.h:
+
+../../textscreen/../src/doomkeys.h:
+
+../../textscreen/txt_main.h:
+
+../../textscreen/txt_sdl.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/strings.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/inttypes.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdint.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdint.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/ctype.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_touplow.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/begin_code.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/close_code.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h:
+
+../../textscreen/txt_button.h:
+
+../../textscreen/txt_widget.h:
+
+../../textscreen/txt_checkbox.h:
+
+../../textscreen/txt_desktop.h:
+
+../../textscreen/txt_window.h:
+
+../../textscreen/txt_table.h:
+
+../../textscreen/txt_window_action.h:
+
+../../textscreen/txt_dropdown.h:
+
+../../textscreen/txt_fileselect.h:
+
+../../textscreen/txt_inputbox.h:
+
+../../textscreen/txt_label.h:
+
+../../textscreen/txt_radiobutton.h:
+
+../../textscreen/txt_scrollpane.h:
+
+../../textscreen/txt_separator.h:
+
+../../textscreen/txt_spinctrl.h:
+
+../../textscreen/txt_strut.h:
+
+../../src/doomtype.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/limits.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/syslimits.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/limits.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/local_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/linux/limits.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/xopen_lim.h:
+
+../../src/m_config.h:
+
+../../src/doomtype.h:
+
+../../src/m_controls.h:
+
+../../src/m_misc.h:
+
+execute.h:
+
+txt_keyinput.h:
+
+../../textscreen/txt_widget.h:
+
+mode.h:
+
+../../src/d_mode.h:
+
+../../src/d_iwad.h:
+
+../../src/d_mode.h:
+
+joystick.h:
+
+keyboard.h:

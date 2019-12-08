@@ -1,0 +1,184 @@
+p_sight.o: p_sight.c doomdef.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h \
+ ../../src/doomtype.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/strings.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/inttypes.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdint.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdint.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/limits.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/syslimits.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/limits.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/local_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/linux/limits.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/xopen_lim.h \
+ ../../src/i_timer.h ../../src/d_mode.h ../../src/doomtype.h \
+ ../../src/i_system.h ../../src/d_ticcmd.h ../../src/d_event.h p_local.h \
+ r_local.h ../../src/tables.h ../../src/m_fixed.h r_data.h r_defs.h \
+ ../../src/m_fixed.h d_think.h p_mobj.h doomdata.h info.h \
+ ../../src/i_video.h ../../src/v_patch.h r_state.h d_player.h d_items.h \
+ p_pspr.h ../../src/d_ticcmd.h ../../src/net_defs.h ../../src/sha1.h \
+ p_spec.h r_main.h r_bsp.h r_segs.h r_plane.h r_things.h r_draw.h
+
+doomdef.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h:
+
+../../src/doomtype.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/strings.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/inttypes.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdint.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdint.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/limits.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include-fixed/syslimits.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/limits.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/local_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/linux/limits.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/xopen_lim.h:
+
+../../src/i_timer.h:
+
+../../src/d_mode.h:
+
+../../src/doomtype.h:
+
+../../src/i_system.h:
+
+../../src/d_ticcmd.h:
+
+../../src/d_event.h:
+
+p_local.h:
+
+r_local.h:
+
+../../src/tables.h:
+
+../../src/m_fixed.h:
+
+r_data.h:
+
+r_defs.h:
+
+../../src/m_fixed.h:
+
+d_think.h:
+
+p_mobj.h:
+
+doomdata.h:
+
+info.h:
+
+../../src/i_video.h:
+
+../../src/v_patch.h:
+
+r_state.h:
+
+d_player.h:
+
+d_items.h:
+
+p_pspr.h:
+
+../../src/d_ticcmd.h:
+
+../../src/net_defs.h:
+
+../../src/sha1.h:
+
+p_spec.h:
+
+r_main.h:
+
+r_bsp.h:
+
+r_segs.h:
+
+r_plane.h:
+
+r_things.h:
+
+r_draw.h:

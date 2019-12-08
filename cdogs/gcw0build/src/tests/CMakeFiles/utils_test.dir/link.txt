@@ -1,0 +1,1 @@
+/opt/rs97/bin/mipsel-rs97-linux-uclibc-gcc --sysroot=/opt/rs97/mipsel-rs97-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os  -DNDEBUG  -rdynamic CMakeFiles/utils_test.dir/utils_test.c.o CMakeFiles/utils_test.dir/__/cdogs/utils.c.o  -o utils_test cbehave/libcbehave.a -lm 

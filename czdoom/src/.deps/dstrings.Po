@@ -1,0 +1,8 @@
+dstrings.o: dstrings.c dstrings.h d_englsh.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h
+
+dstrings.h:
+
+d_englsh.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h:

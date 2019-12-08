@@ -1,0 +1,48 @@
+sound/mixer.o: sound/mixer.cpp common/util.h common/scummsys.h config.h \
+ common/textconsole.h common/str.h common/system.h common/noncopyable.h \
+ common/rect.h common/debug.h common/list.h common/list_intern.h \
+ graphics/pixelformat.h sound/mixer_intern.h common/mutex.h sound/mixer.h \
+ common/types.h sound/timestamp.h sound/rate.h engines/engine.h \
+ common/error.h sound/audiostream.h
+
+common/util.h:
+
+common/scummsys.h:
+
+config.h:
+
+common/textconsole.h:
+
+common/str.h:
+
+common/system.h:
+
+common/noncopyable.h:
+
+common/rect.h:
+
+common/debug.h:
+
+common/list.h:
+
+common/list_intern.h:
+
+graphics/pixelformat.h:
+
+sound/mixer_intern.h:
+
+common/mutex.h:
+
+sound/mixer.h:
+
+common/types.h:
+
+sound/timestamp.h:
+
+sound/rate.h:
+
+engines/engine.h:
+
+common/error.h:
+
+sound/audiostream.h:

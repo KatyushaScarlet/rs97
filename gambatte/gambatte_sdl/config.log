@@ -1,0 +1,18 @@
+file /home/steward/Data/Github/rs97_src/gambatte/gambatte_sdl/SConstruct,line 66:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C library z... 
+.sconf_temp/conftest_0.c <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+/opt/rs97/bin/mipsel-linux-gcc -o .sconf_temp/conftest_0.o -c -Wall -Wextra -O2 -fomit-frame-pointer -ffunction-sections -ffast-math -fsingle-precision-constant -G0 -I/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL -DHAVE_STDINT_H -D_GNU_SOURCE=1 -D_REENTRANT -Isrc -I/home/steward/Data/Github/rs97_src/gambatte/libgambatte/include -I/home/steward/Data/Github/rs97_src/gambatte/common -I/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/SDL .sconf_temp/conftest_0.c
+/opt/rs97/bin/mipsel-linux-gcc -o .sconf_temp/conftest_0 -Wl,--gc-sections -lSDL_image .sconf_temp/conftest_0.o -L/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/lib -lSDL -lpthread -lz
+scons: Configure: yes
+
+

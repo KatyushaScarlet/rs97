@@ -1,0 +1,2 @@
+/opt/rs97/bin/mipsel-rs97-linux-uclibc-ar qc libhqx.a  CMakeFiles/hqx.dir/common.c.o CMakeFiles/hqx.dir/hq2x.c.o CMakeFiles/hqx.dir/hq3x.c.o CMakeFiles/hqx.dir/hq4x.c.o CMakeFiles/hqx.dir/init.c.o
+/opt/rs97/bin/mipsel-rs97-linux-uclibc-ranlib libhqx.a

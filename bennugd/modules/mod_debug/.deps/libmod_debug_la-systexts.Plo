@@ -1,0 +1,185 @@
+libmod_debug_la-systexts.lo: systexts.c \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/ctype.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_touplow.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/bgdcore.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/bgdrtm/include/bgdrtm.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdint.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdint.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/commons_defs.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/arrange.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/i_procdef.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/i_procdef_st.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/instance_st.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/files.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/arrange.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/files_st.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/dcb.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/typedef.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/typedef_st.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/xctype.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/xctype_st.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/instance.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/instance_st.h \
+ /home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/i_procdef_st.h \
+ ../libgrbase/libgrbase.h ../libgrbase/g_pal.h ../libgrbase/g_bitmap.h \
+ ../libgrbase/g_clear.h ../libgrbase/g_region.h ../libgrbase/g_grlib.h \
+ ../libgrbase/g_blendop.h ../libgrbase/g_conversion.h
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/ctype.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_touplow.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/bgdcore.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/bgdrtm/include/bgdrtm.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdint.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdint.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/commons_defs.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/arrange.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/i_procdef.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/i_procdef_st.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/instance_st.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/files.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/arrange.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/files_st.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/dcb.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/typedef.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/typedef_st.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/xctype.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/xctype_st.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/instance.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/instance_st.h:
+
+/home/steward/Data/Github/rs97_src/bennugd/modules/../core/include/i_procdef_st.h:
+
+../libgrbase/libgrbase.h:
+
+../libgrbase/g_pal.h:
+
+../libgrbase/g_bitmap.h:
+
+../libgrbase/g_clear.h:
+
+../libgrbase/g_region.h:
+
+../libgrbase/g_grlib.h:
+
+../libgrbase/g_blendop.h:
+
+../libgrbase/g_conversion.h:

@@ -1,0 +1,2 @@
+/opt/rs97/bin/mipsel-rs97-linux-uclibc-ar qc libcbehave.a  CMakeFiles/cbehave.dir/cbehave.c.o
+/opt/rs97/bin/mipsel-rs97-linux-uclibc-ranlib libcbehave.a

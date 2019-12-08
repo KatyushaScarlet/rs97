@@ -1,0 +1,184 @@
+valid.lo: \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/valid.c \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/libxml.h \
+ config.h include/libxml/xmlversion.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlexports.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h \
+ /opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h \
+ /opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlmemory.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/threads.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/globals.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/parser.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/tree.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlstring.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlregexp.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/dict.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/hash.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/valid.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlerror.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/list.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlautomata.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/entities.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/encoding.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlIO.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/SAX.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xlink.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/SAX2.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/uri.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/parserInternals.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/HTMLparser.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/chvalid.h \
+ /home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/elfgcchack.h
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/libxml.h:
+
+config.h:
+
+include/libxml/xmlversion.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlexports.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/features.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stddef.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/wchar.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/endian.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sgidefs.h:
+
+/opt/rs97/lib/gcc/mipsel-rs97-linux-uclibc/7.3.0/include/stdarg.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/string.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/stdlib.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitflags.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/types.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/time.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/select.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/sigset.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/bits/time.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/rs97/mipsel-rs97-linux-uclibc/sysroot/usr/include/alloca.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlmemory.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/threads.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/globals.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/parser.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/tree.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlstring.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlregexp.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/dict.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/hash.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/valid.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlerror.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/list.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlautomata.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/entities.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/encoding.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xmlIO.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/SAX.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/xlink.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/SAX2.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/uri.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/parserInternals.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/HTMLparser.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/include/libxml/chvalid.h:
+
+/home/steward/Data/Github/rs97_src/openmsx/derived/3rdparty/src/libxml2-2.8.0/elfgcchack.h:
