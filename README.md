@@ -6,7 +6,7 @@
 |CPU      |Ingenic JZ4760                   |
 |RAM      |128MB                            |
 |Storage  |2GB                              |
-|Screen   |3.0" 320x240                     |
+|Screen   |3.0" 480x320                     |
 |Slot     |MicroSD                          |
 |Gamepad  |DPad, 4 Buttons, Menu, Mode, L, R|
 |USB      |Client                           |
